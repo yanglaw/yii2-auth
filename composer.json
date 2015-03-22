@@ -1,0 +1,33 @@
+{
+	"name": "yanglaw/yii2-auth",
+	"description": "Yii 2 User Authentication",
+	"keywords": ["yii2", "user", "auth", "authentication", "rbac", "access"],
+	"type": "yii2-extension",
+	"license": "BSD-3-Clause",
+	"support": {
+		"issues": "https://github.com/yanglaw/yii2-auth/issues?state=open",
+		"forum": "http://www.yiiframework.com/forum/",
+		"wiki": "http://www.yiiframework.com/wiki/",
+		"source": "https://github.com/yanglaw/yii2-auth"
+	},
+	"authors": [
+		{
+			"name": "yanglaw",
+			"email": "yanglaw@gmail.com",
+			"homepage": "http://www.yangheyang.com",
+			"role": "Author"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"yiisoft/yii2": "*",
+		"yiisoft/yii2-bootstrap": "*",
+		"yiisoft/yii2-composer": "*",
+		"yiisoft/yii2-swiftmailer": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"auth\\": ""
+		}
+	}
+}

@@ -1,0 +1,52 @@
+<?php
+/**
+ *
+ * @author Ricardo Obregón <ricardo@obregon.co>
+ * @created 28/11/13 01:24 PM
+ */
+return [
+	'Username' => '用户名',
+	'Email' => '电子邮件',
+	'Password' => '密码',
+	'Status' => '状态',
+	'Last Visit Time' => '最后登录时间',
+	'Create Time' => '创建时间',
+	'Update Time' => 'Fecha Actualización',
+	'Delete Time' => 'Fecha de Eliminación',
+	'Incorrect username or password.' => '错误的用户名或者密码。',
+	'Profile' => 'Perfil',
+	'View Profile' => 'Ver Perfil',
+	'Update Profile' => 'Actualizar Perfil',
+	'Login' => '登录',
+	'Logout' => '登出',
+	'Username or Email' => '用户名或者邮箱',
+    'Verify Code' => '验证码',
+	'Remember Me' => '一个月内免登录',
+	'Please fill out the following fields to login:' => 'Por favor, ingrese los siguientes datos para iniciar sesión:',
+	'Create' => '创建',
+	'Create User' => '创建用户',
+	'Users' => '用户',
+	'Update' => '编辑',
+	'Update User' => '修改用户信息',
+	'Delete' => '删除',
+	'Deleted' => '已删除',
+	'Inactive' => '未激活',
+	'Active' => '正常',
+	'Suspended' => '禁用',
+	'Forgot password?' => '忘记密码？',
+    'Retrieve my password' => '立即取回',
+    'Sign up' => '注册',
+    'Verify password' => '重复输入密码',
+    'This user is not inactive, please check your email for the activing user link.' => '帐号没有激活，请激活后再进行登录。',
+    'User has activation. Please login.' => '用户已激活，请登录。',
+    'Your activation key had expired, please re-active.' => '您的激活码已经失效，请重新激活。',
+    'Activation key expired' => '激活码失效',
+    'Re-activation' => '重新激活',
+    'Verify email' => '重复输入邮箱',
+    'Already registered? Sign in!' => '已经注册，直接登录！',
+    '[{name}] congratulation! {user_name} has successfully sign up!' => '[{name}] 恭喜您注册用户 {user_name} 成功！',
+    'Thank you for your registration. Please check your email.' => '您已经注册成为本站会员，请去您的邮箱进行激活。',
+    'This username has already been taken.' => '这个用户名已经被注册',
+    'This email address has already been taken.' => '这个邮箱已经被占用',
+    'I forgot my account'=> '我忘记了用户名 或者 密码'
+];
